@@ -23,9 +23,6 @@ public class AccountDto {
 
   private String iban;
 
-  private LocalDateTime createdDate;
-
-  private LocalDateTime lastModifiedDate;
 
   private UserDto user;
 
@@ -33,8 +30,6 @@ public class AccountDto {
     return AccountDto.builder()
                      .id(account.getId())
                      .iban(account.getIban())
-                     .createdDate(account.getCreatedDate())
-                     .lastModifiedDate(account.getLastModifiedDate())
                      .user(UserDto.fromEntity(account.getUser()))
                      .build();
   }
