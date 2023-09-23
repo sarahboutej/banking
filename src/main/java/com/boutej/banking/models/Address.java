@@ -8,7 +8,7 @@ import lombok.experimental.SuperBuilder;
 
 /**
  * @author Sara Boutej
- * @since 14.09.2023
+ * @since 12.09.2023
  */
 @Entity
 @SuperBuilder
