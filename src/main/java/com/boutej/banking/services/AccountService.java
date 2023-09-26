@@ -1,4 +1,6 @@
 package com.boutej.banking.services;
 
-public interface AccountService extends AbstractService {
+import com.boutej.banking.dto.AccountDto;
+
+public interface AccountService extends AbstractService<AccountDto> {
 }
