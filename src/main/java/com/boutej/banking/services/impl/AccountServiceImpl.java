@@ -1,7 +1,7 @@
 package com.boutej.banking.services.impl;
 
 import com.boutej.banking.Validators.ObjectValidator;
-import com.boutej.banking.Validators.OperationNonPermittedException;
+import com.boutej.banking.exceptions.OperationNonPermittedException;
 import com.boutej.banking.dto.AccountDto;
 import com.boutej.banking.models.Account;
 import com.boutej.banking.repositories.AccountRepository;
